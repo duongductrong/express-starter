@@ -17,7 +17,6 @@ export const useApp = (app: Express) => {
 
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
-  app.use(methodOverride())
 
   app.listen(process.env.APP_PORT, () => {
     console.log(
