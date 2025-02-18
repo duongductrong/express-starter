@@ -3,7 +3,6 @@ import { Express } from "express";
 import bodyParser from "body-parser";
 import helmet from "helmet";
 import chalk from "chalk";
-import methodOverride from "method-override";
 
 /**
  * Sets up the Express application with necessary middleware and configurations.
